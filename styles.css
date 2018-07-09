@@ -1,0 +1,118 @@
+body {
+    background-color: white;
+}
+h1.title {
+    
+	font-family: Corbel;
+    font-size: 300%;
+	color:rgb(9, 155, 221);
+    padding: 25px;
+    margin: 25px;
+	border:10px solid lightblue;
+	border-radius: 20px;
+	text-align: center;
+	
+}
+h3.subtitle{
+	font-family: Corbel;
+	color:rgb(28, 65, 143);
+	font-weight: bold;
+	font-size: 160%;
+}
+ul.a {
+ 	 color: black;
+	font-family: Corbel;
+    font-size: 120%;  
+}
+p.date{
+	font-family: Corbel;
+    font-size: 120%;
+	text-align: center;
+	margin: auto;
+	font-weight: bold;
+	display: block;
+	color:rgb(8, 204, 120);
+}
+.alignleft{
+	float: left;
+}
+.alignright{
+	float: right;
+}
+p {
+    color: black;
+	font-family: Corbel;
+    font-size: 120%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+	border-radius: 8px;
+	 border:solid lightblue;	 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:rgb(255, 192, 0);
+	border-radius: 20px;
+	
+	margin: 15px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+    float: left;
+}
+
+
+.column.side {
+    width: 25%;
+	background-color: lightgray;
+	position: sticky;
+	top: 0;
+	border-radius: 20px;
+}
+
+
+.column.middle {
+    width: 50%;
+	
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
